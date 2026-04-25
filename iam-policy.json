@@ -5,13 +5,13 @@
             "Sid": "ListBucket",
             "Effect": "Allow",
             "Action": "s3:ListBucket",
-            "Resource": "arn:aws:s3:::example-bucket"
+            "Resource": "arn:aws:s3:::secure-ec2-prashant-bucket"
         },
         {
             "Sid": "GetObject",
             "Effect": "Allow",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::example-bucket/*"
+            "Resource": "arn:aws:s3:::secure-ec2-prashant-bucket/*"
         }
     ]
 }
