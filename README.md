@@ -94,4 +94,4 @@ and verified that `aws s3 rm` returned `AccessDenied` (proving delete is blocked
 ## What I'd improve next
 * **Implement an Application Load Balancer (ALB):** Move the EC2 instance into a Private Subnet for better security, and place an ALB in the Public Subnet to handle incoming internet traffic and forward it to the instance.
 * **Infrastructure as Code (IaC):** Rebuild the entire manual setup using Terraform or AWS CloudFormation to make the deployment repeatable, version-controlled, and automated.
-* * **HTTPS:** Add an SSL certificate via AWS Certificate Manager and configure Nginx to serve traffic on port 443.
+* **HTTPS:** Add an SSL certificate via AWS Certificate Manager and configure Nginx to serve traffic on port 443.
